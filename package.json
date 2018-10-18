@@ -1,0 +1,29 @@
+{
+  "name": "@amindunited/to-camel-case",
+  "version": "0.0.0",
+  "description": "Joins a string separated by dashes or underscores and uppercases the first character of each word",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html mocha './src/**/*.test.js' --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amindunited/to-camel-case.git"
+  },
+  "author": "amindunited",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amindunited/to-camel-case/issues"
+  },
+  "homepage": "https://github.com/amindunited/to-camel-case#readme",
+  "keywords": [
+    "String",
+    "Javascript",
+    "Camel"
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
